@@ -8,7 +8,7 @@ void print(T  &x) {
 
 int main()
 {
-    int tab[] = {0, 1, 2, 3, 4};
+    // int tab[] = {0, 1, 2, 3, 4};
     char tab2[] = {'a', 'b', 'c', 'd', 'e'};
     ::iter(tab2, 5, ::print<char>);
     return 0;
